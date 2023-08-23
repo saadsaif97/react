@@ -1,8 +1,6 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
 
-const root = document.getElementById("root");
-
 function Title({number}) {
   return <h3>This is title number: {number}</h3>
 }
@@ -25,5 +23,5 @@ const parent = React.createElement("div", { id: "parent" }, child);
 
 console.log({jsxHeading, h1})
 
-const reactDOMRoot = ReactDOM.createRoot(root);
+const reactDOMRoot = ReactDOM.createRoot(document.getElementById("root"));
 reactDOMRoot.render(parent);
