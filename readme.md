@@ -55,21 +55,11 @@ const reactDOMRoot = ReactDOM.createRoot(document.getElementById("root"));
 reactDOMRoot.render(parent);
 
 ```
-
-Sure, here's a summarized and more readable version of the process:
-
 Creating React Elements and Rendering with JSX:
-
 - React Element: It's a fundamental part of React that represents a virtual version of a UI component.
-
 - JSX: JSX is a syntax extension for JavaScript that lets you write HTML-like code within your JavaScript files. It makes the code more readable and closely resembles the actual UI structure.
-
 - React.createElement(): It's a function in React that creates a React Element. It takes three arguments: the type of element (like a HTML tag or a custom component), optional properties (props), and children elements.
-
 - JSX to React Element: You can write JSX code that looks like HTML elements representing your UI components.
-
 - Babel Transpilation: JSX code is not directly understood by browsers. Babel, a JavaScript compiler, transpiles JSX into equivalent React.createElement() calls.
-
 - React.createComponent(): This is not an actual function. The correct one is React.createElement(). It's used to build the virtual component tree representing your UI.
-
 - ReactDOM.render(): It's a React method provided by ReactDOM, used to render the virtual component tree onto the actual DOM, making it visible as a part of your web page.
