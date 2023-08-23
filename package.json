@@ -1,0 +1,22 @@
+{
+  "name": "saad-saif-react",
+  "version": "1.0.0",
+  "description": "react practice",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saadsaif97/react.git"
+  },
+  "author": "saad saif",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saadsaif97/react/issues"
+  },
+  "homepage": "https://github.com/saadsaif97/react#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
